@@ -32,7 +32,7 @@ var MATIERES = ["Maths", "Sciences physiques"];
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre exemple : les fonctions affines", titre: "Cours (PDF d'exemple)",   type: "pdf",   fichier: "pdf/exemple.pdf" },
-  { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre : Les Statistiques", titre: "plan de formation sur les statistiques",   type: "pdf",   fichier: "pdf/exemple.pdf" },
+  { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre : Les Statistiques", titre: "plan de formation sur les statistiques",   type: "pdf",   fichier: "pdf/statistiques.pdf" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre exemple : les fonctions affines", titre: "Vidéo d'exemple",         type: "video", fichier: "videos/exemple.mp4" },
   { classe: "3e PM",       matiere: "Sciences physiques", chapitre: "Chapitre exemple : le circuit électrique", titre: "Cours (PDF d'exemple)", type: "pdf", fichier: "pdf/exemple.pdf" }
 ];
