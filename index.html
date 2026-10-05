@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Cours de Maths – Sciences</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="porte" class="porte">
+    <form id="formulaire-porte" class="carte-porte" autocomplete="off">
+      <svg class="cadenas" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+      <h1 id="porte-titre">Cours de Maths – Sciences</h1>
+      <p class="sous-titre" id="porte-sous-titre"></p>
+      <label for="mdp">Mot de passe</label>
+      <input id="mdp" type="password" autocapitalize="off" autocorrect="off" spellcheck="false" required>
+      <p id="erreur-mdp" class="erreur" role="alert" hidden>Mot de passe incorrect. Réessayez.</p>
+      <button type="submit" class="bouton">Entrer</button>
+    </form>
+  </section>
+
+  <div id="site" hidden>
+    <header class="entete">
+      <div class="entete-contenu">
+        <a class="marque" href="#/">
+          <span class="marque-titre" id="titre-site">Cours de Maths – Sciences</span>
+          <span class="marque-sous" id="sous-titre-site"></span>
+        </a>
+        <form id="recherche" class="recherche" role="search">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <input id="champ-recherche" type="search" placeholder="Rechercher un cours" aria-label="Rechercher un cours" autocomplete="off" autocapitalize="off" spellcheck="false">
+        </form>
+      </div>
+    </header>
+
+    <main id="contenu" class="contenu"></main>
+
+    <footer class="pied">
+      <button type="button" id="verrouiller" class="lien-discret">Verrouiller le site sur cet appareil</button>
+    </footer>
+  </div>
+
+  <script src="cours.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

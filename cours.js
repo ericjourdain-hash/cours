@@ -1,0 +1,37 @@
+/* ==========================================================================
+   FICHIER À MODIFIER : c'est ici que vous gérez le contenu du site.
+   Pour ajouter un cours, copiez une ligne de la liste COURS plus bas,
+   collez-la à la suite, puis changez les textes entre guillemets.
+   Attention : gardez les guillemets "..." et la virgule à la fin de chaque ligne.
+   ========================================================================== */
+
+var CONFIG = {
+  titre: "Cours de Maths – Sciences",
+  sousTitre: "Éric Jourdain · Lycée Paul Mathou",
+  motDePasse: "mplpm"
+};
+
+/* Les classes affichées sur la page d'accueil (dans cet ordre). */
+var CLASSES = [
+  { nom: "3e PM",         couleur: "#1F9D75" },
+  { nom: "Seconde Pro",   couleur: "#5B8DEF" },
+  { nom: "Première Pro",  couleur: "#E0A030" },
+  { nom: "Terminale Pro", couleur: "#D96C5B" }
+];
+
+/* Les matières (dans cet ordre). */
+var MATIERES = ["Maths", "Sciences physiques"];
+
+/* La liste des cours.
+   classe   : exactement l'un des noms de CLASSES ci-dessus
+   matiere  : exactement l'une des MATIERES ci-dessus
+   chapitre : le nom du chapitre (les lignes qui ont le même nom sont regroupées)
+   titre    : ce que l'élève voit pour cette ressource
+   type     : "pdf", "video" ou "lien" (lien = adresse web, par exemple YouTube)
+   fichier  : le chemin du fichier, par exemple "pdf/mon-cours.pdf" ou "videos/ma-video.mp4"
+              (pour un "lien", l'adresse web complète en https://...)  */
+var COURS = [
+  { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre exemple : les fonctions affines", titre: "Cours (PDF d'exemple)",   type: "pdf",   fichier: "pdf/exemple.pdf" },
+  { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre exemple : les fonctions affines", titre: "Vidéo d'exemple",         type: "video", fichier: "videos/exemple.mp4" },
+  { classe: "3e PM",       matiere: "Sciences physiques", chapitre: "Chapitre exemple : le circuit électrique", titre: "Cours (PDF d'exemple)", type: "pdf", fichier: "pdf/exemple.pdf" }
+];
