@@ -36,5 +36,4 @@ var COURS = [
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Plan de formation sur les Suites Géométriques", type: "pdf", fichier: "pdf/courssuitegeo.pdf"},
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Cours vidéo sur les Statistiques à 2 variables", type: "video", fichier: "videos/statistiques2variablesterm.mp4"}, 
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Plan de formation sur les Statistiques à 2 variables", type: "pdf", fichier: "pdf/coursstatistiques2varterm.pdf"}, 
-  
-];
+  ];
