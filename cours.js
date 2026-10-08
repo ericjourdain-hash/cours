@@ -33,4 +33,5 @@ var MATIERES = ["Maths", "Sciences physiques"];
 var COURS = [
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre : Les Statistiques", titre: "plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiques.pdf" },
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Chapitre : Les Statistiques à 2 variables", titre: "Cours vidéo sur les Statistiques à 2 variables", type: "video", fichier: "videos/statistiques2variablesterm.mp4"}, 
+   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Chapitre : Les Statistiques à 2 variables", titre: "Plan de formation sur les Statistiques à 2 variables", type: "pdf", fichier: "videos/statistiques2variablesterm.mp4"}, 
 ];
