@@ -32,6 +32,8 @@ var MATIERES = ["Maths", "Sciences physiques"];
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Chapitre : Les Statistiques", titre: "plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiques.pdf" },
+   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Cours vidéo sur les Suites Arithmétiques", type: "video", fichier: "videos/probabilites.mp4"}, 
+   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Plan de formation sur les Suites Arithmétiques", type: "pdf", fichier: "pdf/probapremiere.pdf"},
    { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Cours vidéo sur les Probabilités", type: "video", fichier: "videos/probabilites.mp4"}, 
    { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Plan de formation sur les Probabilités", type: "pdf", fichier: "pdf/probapremiere.pdf"},
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Cours vidéo sur les Suites Géométriques", type: "video", fichier: "videos/suites_geometriques.mp4"}, 
