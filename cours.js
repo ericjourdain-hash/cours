@@ -31,13 +31,13 @@ var MATIERES = ["Maths", "Sciences physiques"];
    fichier  : le chemin du fichier, par exemple "pdf/mon-cours.pdf" ou "videos/ma-video.mp4"
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "mp4", fichier: "pdf/statistiques.mp4" },
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "mp4", fichier: "pdf/statistiques.mp4" },
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Atomes et Molécules", titre: "Cours vidéo sur les Atomes et Molécules", type: "mp4", fichier: "pdf/statistiques.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "mp4", fichier: "videos/statistiques.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "mp4", fichier: "videos/statistiques.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Atomes et Molécules", titre: "Cours vidéo sur les Atomes et Molécules", type: "mp4", fichier: "videos/statistiques.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiques.pdf" },
-   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Cours vidéo sur les Statistiques", type: "mp4", fichier: "pdf/statistiques.mp4" },
+   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Cours vidéo sur les Statistiques", type: "mp4", fichier: "videos/statistiques.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Plan de formation sur Les Equations et Inéquations", type: "pdf", fichier: "pdf/equationinequation.pdf" },
-   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Cours vidéo sur les Les Equations et Inéquations", type: "mp4", fichier: "mp4/equation.mp4" },
+   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Cours vidéo sur les Les Equations et Inéquations", type: "mp4", fichier: "videos/equation.mp4" },
    { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Cours vidéo sur les Suites Arithmétiques", type: "video", fichier: "videos/suitesarithmetiques.mp4"}, 
    { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Plan de formation sur les Suites Arithmétiques", type: "pdf", fichier: "pdf/suitesA.pdf"},
    { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Cours vidéo sur les Probabilités", type: "video", fichier: "videos/probabilites.mp4"}, 
