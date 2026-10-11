@@ -17,7 +17,10 @@ var CLASSES = [
   { nom: "CAP",         couleur: "#ff689d" },
   { nom: "Seconde Pro",   couleur: "#5B8DEF" },
   { nom: "Première Pro",  couleur: "#E0A030" },
-  { nom: "Terminale Pro", couleur: "#D96C5B" }
+  { nom: "Terminale Pro", couleur: "#D96C5B" },
+  { nom: "Cahiers d'automatismes", couleur: "#00E1E1" },
+  { nom: "Applications ", couleur: "#4DA53D" },
+  { nom: "Divers ", couleur: "#A78DB8" },
 ];
 
 /* Les matières (dans cet ordre). */
