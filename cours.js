@@ -14,7 +14,7 @@ var CONFIG = {
 /* Les classes affichées sur la page d'accueil (dans cet ordre). */
 var CLASSES = [
   { nom: "3e PM",         couleur: "#1F9D75" },
-  { nom: "CAP",         couleur: "#800080" },
+  { nom: "CAP",         couleur: "#ff689d" },
   { nom: "Seconde Pro",   couleur: "#5B8DEF" },
   { nom: "Première Pro",  couleur: "#E0A030" },
   { nom: "Terminale Pro", couleur: "#D96C5B" }
