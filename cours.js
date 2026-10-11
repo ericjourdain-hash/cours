@@ -31,6 +31,9 @@ var MATIERES = ["Maths", "Sciences physiques"];
    fichier  : le chemin du fichier, par exemple "pdf/mon-cours.pdf" ou "videos/ma-video.mp4"
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "mp4", fichier: "pdf/statistiques.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "mp4", fichier: "pdf/statistiques.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Atomes et Molécules", titre: "Cours vidéo sur les Atomes et Molécules", type: "mp4", fichier: "pdf/statistiques.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiques.pdf" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Cours vidéo sur les Statistiques", type: "mp4", fichier: "pdf/statistiques.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Plan de formation sur Les Equations et Inéquations", type: "pdf", fichier: "pdf/equationinequation.pdf" },
