@@ -4,13 +4,13 @@
    collez-la à la suite, puis changez les textes entre guillemets.
    Attention : gardez les guillemets "..." et la virgule à la fin de chaque ligne.
    ========================================================================== */
-
+ 
 var CONFIG = {
   titre: "Cours de Maths – Sciences",
   sousTitre: "Éric Jourdain · Lycée Paul Mathou",
   motDePasse: "mplpm"
 };
-
+ 
 /* Les classes affichées sur la page d'accueil (dans cet ordre). */
 var CLASSES = [
   { nom: "3e PM",         couleur: "#1F9D75" },
@@ -19,13 +19,13 @@ var CLASSES = [
   { nom: "Première Pro",  couleur: "#E0A030" },
   { nom: "Terminale Pro", couleur: "#D96C5B" },
   { nom: "Cahiers d'automatismes", couleur: "#00E1E1" },
-  { nom: "Applications ", couleur: "#4DA53D" },
-  { nom: "Divers ", couleur: "#A78DB8" },
+  { nom: "Applications", couleur: "#4DA53D" },
+  { nom: "Divers", couleur: "#A78DB8" }
 ];
-
+ 
 /* Les matières (dans cet ordre). */
 var MATIERES = ["Maths", "Sciences physiques"];
-
+ 
 /* La liste des cours.
    classe   : exactement l'un des noms de CLASSES ci-dessus
    matiere  : exactement l'une des MATIERES ci-dessus
@@ -36,22 +36,22 @@ var MATIERES = ["Maths", "Sciences physiques"];
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
    { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiquesCAP.pdf" },
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "mp4", fichier: "videos/etats.mp4" },
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "L'Univers", titre: "Cours vidéo sur l'Univers", type: "mp4", fichier: "videos/univers.mp4" },
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "mp4", fichier: "videos/melanges.mp4" },
-   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Atomes et Molécules", titre: "Cours vidéo sur les Atomes et Molécules", type: "mp4", fichier: "videos/atomes.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "video", fichier: "videos/etats.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "L'Univers", titre: "Cours vidéo sur l'Univers", type: "video", fichier: "videos/univers.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "video", fichier: "videos/melanges.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Atomes et Molécules", titre: "Cours vidéo sur les Atomes et Molécules", type: "video", fichier: "videos/atomes.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiques.pdf" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Corrigé du Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/corrigePFstat.pdf" },
-   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Cours vidéo sur les Statistiques", type: "mp4", fichier: "videos/statistiques.mp4" },
+   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Cours vidéo sur les Statistiques", type: "video", fichier: "videos/statistiques.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Plan de formation sur Les Equations et Inéquations", type: "pdf", fichier: "pdf/equationinequation.pdf" },
-   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Cours vidéo sur les Les Equations et Inéquations", type: "mp4", fichier: "videos/equation.mp4" },
-   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Cours vidéo sur les Suites Arithmétiques", type: "video", fichier: "videos/suitesarithmetiques.mp4"}, 
-   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Plan de formation sur les Suites Arithmétiques", type: "pdf", fichier: "pdf/suitesA.pdf"},
-   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Cours vidéo sur les Probabilités", type: "video", fichier: "videos/probabilites.mp4"}, 
-   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Plan de formation sur les Probabilités", type: "pdf", fichier: "pdf/probapremiere.pdf"},
-   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Cours vidéo sur les Suites Géométriques", type: "video", fichier: "videos/suites_geometriques.mp4"}, 
-   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Plan de formation sur les Suites Géométriques", type: "pdf", fichier: "pdf/courssuitegeo.pdf"},
-   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Cours vidéo sur les Statistiques à 2 variables", type: "video", fichier: "videos/statistiques2variablesterm.mp4"}, 
-   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Plan de formation sur les Statistiques à 2 variables", type: "pdf", fichier: "pdf/coursstatistiques2varterm.pdf"}, 
-   { classe: "Applications", matiere: "Sciences physiques", chapitre: "la couleur des objets", titre: "Application couleur des objets", type: "lien", "https://web-labosims.org/animations/couleur_objet2/couleur_objet.html" },  
+   { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Equations et Inéquations", titre: "Cours vidéo sur les Les Equations et Inéquations", type: "video", fichier: "videos/equation.mp4" },
+   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Cours vidéo sur les Suites Arithmétiques", type: "video", fichier: "videos/suitesarithmetiques.mp4" },
+   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Suites Arithmétiques", titre: "Plan de formation sur les Suites Arithmétiques", type: "pdf", fichier: "pdf/suitesA.pdf" },
+   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Cours vidéo sur les Probabilités", type: "video", fichier: "videos/probabilites.mp4" },
+   { classe: "Première Pro", matiere: "Maths", chapitre: "Les Probabilités", titre: "Plan de formation sur les Probabilités", type: "pdf", fichier: "pdf/probapremiere.pdf" },
+   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Cours vidéo sur les Suites Géométriques", type: "video", fichier: "videos/suites_geometriques.mp4" },
+   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Plan de formation sur les Suites Géométriques", type: "pdf", fichier: "pdf/courssuitegeo.pdf" },
+   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Cours vidéo sur les Statistiques à 2 variables", type: "video", fichier: "videos/statistiques2variablesterm.mp4" },
+   { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Plan de formation sur les Statistiques à 2 variables", type: "pdf", fichier: "pdf/coursstatistiques2varterm.pdf" },
+   { classe: "Applications", matiere: "Sciences physiques", chapitre: "La couleur des objets", titre: "Application couleur des objets", type: "lien", fichier: "https://web-labosims.org/animations/couleur_objet2/couleur_objet.html" }
 ];
