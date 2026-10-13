@@ -37,7 +37,7 @@ var MATIERES = ["Maths", "Sciences physiques"];
 var COURS = [
    { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiquesCAP.pdf" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Cours Mouvements et vitesse", type: "pdf", fichier: "pdf/mouvementCAP.pdf" },
-   { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Vidéo Mouvement et Vitesse", type: "videos", fichier: "videos/mouvementCAP.mp4" },
+   { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Vidéo Mouvement et Vitesse", type: "video", fichier: "videos/mouvementCAP.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "video", fichier: "videos/etats.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "L'Univers", titre: "Cours vidéo sur l'Univers", type: "video", fichier: "videos/univers.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "video", fichier: "videos/melanges.mp4" },
