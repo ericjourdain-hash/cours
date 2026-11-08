@@ -36,13 +36,15 @@ var MATIERES = ["Maths", "Sciences physiques"];
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
    { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiquesCAP.pdf" },
-   { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Vidéo du cours sur les Statistiques", type: "video", fichier: "videos/statistiquesCAP.mp4" },
+   { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur la proportionnalité", type: "pdf", fichier: "pdf/proportionnalitésCAP.pdf" },
+   { classe: "CAP", matiere: "Maths", chapitre: "La proportionnalité", titre: "Vidéo du cours sur la proportionnalité", type: "video", fichier: "videos/proportionnaliteCAP.mp4" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Cours Mouvements et vitesse", type: "pdf", fichier: "pdf/mouvementCAP.pdf" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Vidéo Mouvement et Vitesse", type: "video", fichier: "videos/mouvementCAP.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Etats de la matière", titre: "Cours vidéo sur les Etats de la matière", type: "video", fichier: "videos/etats.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "L'Univers", titre: "Cours vidéo sur l'Univers", type: "video", fichier: "videos/univers.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Mélanges", titre: "Cours vidéo sur les Mélanges", type: "video", fichier: "videos/melanges.mp4" },
    { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Les Atomes et Molécules", titre: "Cours vidéo sur les Atomes et Molécules", type: "video", fichier: "videos/atomes.mp4" },
+   { classe: "3e PM", matiere: "Sciences physiques", chapitre: "Mouvement et vitesse", titre: "Cours vidéo sur Mouvement et Vitesse", type: "video", fichier: "videos/mouvement3PM.mp4" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiques.pdf" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Corrigé du Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/corrigePFstat.pdf" },
    { classe: "Seconde Pro", matiere: "Maths", chapitre: "Les Statistiques", titre: "Cours vidéo sur les Statistiques", type: "video", fichier: "videos/statistiques.mp4" },
