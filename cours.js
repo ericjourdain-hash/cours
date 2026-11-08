@@ -37,6 +37,7 @@ var MATIERES = ["Maths", "Sciences physiques"];
 var COURS = [
    { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiquesCAP.pdf" },
    { classe: "CAP", matiere: "Maths", chapitre: "La Proportionnalité", titre: "Plan de formation sur la proportionnalité", type: "pdf", fichier: "pdf/proportionnaliteCAP.pdf" },
+   { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Vidéo du cours sur les statistiques", type: "video", fichier: "videos/statistiquesCAP.mp4" },
    { classe: "CAP", matiere: "Maths", chapitre: "La Proportionnalité", titre: "Vidéo du cours sur la proportionnalité", type: "video", fichier: "videos/proportionnaliteCAP.mp4" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Cours Mouvements et vitesse", type: "pdf", fichier: "pdf/mouvementCAP.pdf" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Vidéo Mouvement et Vitesse", type: "video", fichier: "videos/mouvementCAP.mp4" },
