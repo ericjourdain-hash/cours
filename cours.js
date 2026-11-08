@@ -36,7 +36,7 @@ var MATIERES = ["Maths", "Sciences physiques"];
               (pour un "lien", l'adresse web complète en https://...)  */
 var COURS = [
    { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur les Statistiques", type: "pdf", fichier: "pdf/statistiquesCAP.pdf" },
-   { classe: "CAP", matiere: "Maths", chapitre: "Les Statistiques", titre: "Plan de formation sur la proportionnalité", type: "pdf", fichier: "pdf/proportionnalitésCAP.pdf" },
+   { classe: "CAP", matiere: "Maths", chapitre: "La Proportionnalités", titre: "Plan de formation sur la proportionnalité", type: "pdf", fichier: "pdf/proportionnaliteCAP.pdf" },
    { classe: "CAP", matiere: "Maths", chapitre: "La proportionnalité", titre: "Vidéo du cours sur la proportionnalité", type: "video", fichier: "videos/proportionnaliteCAP.mp4" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Cours Mouvements et vitesse", type: "pdf", fichier: "pdf/mouvementCAP.pdf" },
    { classe: "CAP", matiere: "Sciences physiques", chapitre: "Mouvements et Vitesse", titre: "Vidéo Mouvement et Vitesse", type: "video", fichier: "videos/mouvementCAP.mp4" },
