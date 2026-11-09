@@ -58,7 +58,7 @@ var COURS = [
    { classe: "Première Pro", matiere: "Sciences physiques", chapitre: "Les solutions aqueuses", titre: "Cours vidéo sur la dissolution et la dilution", type: "video", fichier: "videos/dissolutiondilution.mp4" },
    { classe: "Première Pro", matiere: "Sciences physiques", chapitre: "Les solutions aqueuses", titre: "Cours vidéo sur les concentrations massique et molaire", type: "video", fichier: "videos/concentration.mp4" },
    { classe: "Première Pro", matiere: "Sciences physiques", chapitre: "Les solutions aqueuses", titre: "Cours vidéo sur la mole", type: "video", fichier: "videos/mole.mp4" },
-   { classe: "Première Pro", matiere: "Sciences physiques", chapitre: "Les solutions acueuses", titre: "Cours vidéo sur le titrage", type: "video", fichier: "videos/titrage.mp4" },
+   { classe: "Première Pro", matiere: "Sciences physiques", chapitre: "Les solutions aqueuses", titre: "Cours vidéo sur le titrage", type: "video", fichier: "videos/titrage.mp4" },
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Cours vidéo sur les Suites Géométriques", type: "video", fichier: "videos/suites_geometriques.mp4" },
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Suites Géométriques", titre: "Plan de formation sur les Suites Géométriques", type: "pdf", fichier: "pdf/courssuitegeo.pdf" },
    { classe: "Terminale Pro", matiere: "Maths", chapitre: "Les Statistiques à 2 variables", titre: "Cours vidéo sur les Statistiques à 2 variables", type: "video", fichier: "videos/statistiques2variablesterm.mp4" },
